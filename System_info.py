@@ -51,5 +51,6 @@ while info != '0':
             print("-"*100)
 
     except Exception as e:
+        print(e)
         print("Please,Enter proper system information as shown in above list")
         print("-"*100)
